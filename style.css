@@ -1,0 +1,45 @@
+
+ /* Para ir frente a carousel*/
+.overlay { 
+    color:white;
+    position:absolute;
+    z-index:5;
+    top:35%;
+    left:45%;
+    width:50%;
+    text-align:right;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+
+
+.imagen{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen2{
+    max-width:221px;
+    max-height:228px;
+}
+
+
+
+.image-grid-container {
+    display: grid;
+
+    /* For 2 columns */
+    grid-template-columns: auto auto;
+}
+
+.img{
+    width: 100%;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.texto{
+    font-size:20px;
+}
